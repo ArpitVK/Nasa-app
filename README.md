@@ -1,8 +1,43 @@
 # React + Vite
+# NASA App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a NASA-themed application built using ReactJS. The app fetches and displays data from NASA's public APIs, providing users with interesting and educational information about space, astronomy, and related topics.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Installation](#installation)
+
+## Features
+
+- Display the Astronomy Picture of the Day (APOD).
+- Interactive interface with a modern design.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/ArpitVK/nasa-app.git
+   cd nasa-app
+
+2. Install the dependencies
+
+   ```bash
+   npm install
+   
+3. Obtain an API key from NASA by signing up at NASA API. Create a .env file in the root of the project and add your API key:
+
+   
+   ```env
+   REACT_APP_NASA_API_KEY=your_api_key_here
+
+4. Start the development server:
+
+
+   ```bash
+   npm start
+
+5. Open your browser and navigate to http://localhost:5173.
